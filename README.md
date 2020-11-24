@@ -7,4 +7,5 @@ In short it is an appliction for controlling your pc from another pc/smartphone.
  - [webObserver](webObserver): C++ programm for controlling another machine
  - [flutterControl](flutterControl): mobile app that does the same stuff
 
-
+![screenshot1](ex1.png)
+![screenshot2](ex2.png)
