@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Images">
+      <UniqueIdentifier>{508dacb3-7fbd-4219-8c6d-2252e5e6bdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audios">
+      <UniqueIdentifier>{a9ee14ae-cc0b-4b68-9adf-aa2ad7e7a2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\passwordCracker">
+      <UniqueIdentifier>{5c5adc01-3dce-428c-8215-63c1d3b70f8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="googlesqlite\chrome-passwords.cpp">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClCompile>
+    <ClCompile Include="googlesqlite\sqlite3.c">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClCompile>
+    <ClCompile Include="googlesqlite\stdafx.cpp">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screenshotmaker.h">
+      <Filter>Header Files\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_jpeg.h">
+      <Filter>Header Files\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asc2art.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debinaryData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowPress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="googlesqlite\sqlite3.h">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClInclude>
+    <ClInclude Include="googlesqlite\stdafx.h">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClInclude>
+    <ClInclude Include="googlesqlite\targetver.h">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClInclude>
+    <ClInclude Include="chromePasswords.h">
+      <Filter>Header Files\passwordCracker</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
