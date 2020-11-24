@@ -8,4 +8,4 @@ In short it is an appliction for controlling your pc from another pc/smartphone.
  - [flutterControl](flutterControl): mobile app that does the same stuff
 
 ![screenshot1](ex1.png)
-![screenshot2](ex2.png)
+<img src="ex2.png" width="350" alt="screenshot2">
